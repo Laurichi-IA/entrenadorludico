@@ -1,0 +1,9 @@
+import React from 'react';
+
+export default function App() {
+  return (
+    <div style={{ background: '#0D1B2A', color: 'white', minHeight: '100vh', display: 'flex', alignItems: 'center', justifyCenter: 'center' }}>
+      <h1>Cisgein SST - Test</h1>
+    </div>
+  );
+}

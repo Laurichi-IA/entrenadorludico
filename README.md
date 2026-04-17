@@ -1,20 +1,41 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Cisgein SST - Entrenador Lúdico
 
-# Run and deploy your AI Studio app
+Landing page profesional para la certificación de Entrenador Lúdico en Seguridad y Salud en el Trabajo (SST).
 
-This contains everything you need to run your app locally.
+## Características
+- Diseño moderno y responsivo con Tailwind CSS.
+- Animaciones fluidas con Framer Motion.
+- Iconografía profesional con Lucide React.
+- Optimizado para conversión y registro de usuarios.
 
-View your app in AI Studio: https://ai.studio/apps/be4c889e-cbc9-4a48-8fc0-3d4910702121
+## Tecnologías
+- **React 19**
+- **Vite**
+- **Tailwind CSS 4**
+- **Framer Motion**
+- **Lucide React**
 
-## Run Locally
+## Desarrollo Local
 
-**Prerequisites:**  Node.js
+1. Instala las dependencias:
+   ```bash
+   npm install
+   ```
 
+2. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+3. Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
+
+## Despliegue
+
+Para generar la versión de producción:
+```bash
+npm run build
+```
+Los archivos estáticos se generarán en la carpeta `dist/`.
+
+---
+Organizado por **CISGEIN** y respaldado por **LudoPrevención**.
