@@ -6,7 +6,7 @@
 import React from 'react';
 import { Facebook, Instagram, MessageCircle, Mail, ChevronRight, Play, Users, Trophy, Calendar, MapPin, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
-import luigiImg from './LUIGI.png';
+import LUIGI from '../src/LUIGI.png';
 
 const LandingSST = () => {
   return (
