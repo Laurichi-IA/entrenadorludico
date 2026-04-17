@@ -14,15 +14,10 @@ const LandingSST = () => {
       
       {/* NAV */}
       <nav className="sticky top-0 z-50 flex justify-between items-center px-6 py-4 backdrop-blur-md bg-[#0D1B2A]/80 border-b border-[#FF5C00]/20 shadow-lg transition-all" role="navigation" aria-label="Navegación principal">
-        <a 
-          href="https://cisgein.com" 
-          target="_blank" 
-          rel="noopener noreferrer" 
-          className="flex items-center gap-2 hover:opacity-80 transition-opacity"
-        >
+        <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-[#FF5C00] rounded-lg flex items-center justify-center font-black text-white text-xl shadow-lg shadow-[#FF5C00]/20" aria-hidden="true">C</div>
           <span className="font-extrabold text-lg text-[#FFD000] tracking-tight">CISGEIN <span className="text-white/40 font-light mx-1">|</span> SST</span>
-        </a>
+        </div>
         <a 
           href="https://forms.gle/dVD4QLkWE6R9CQq1A" 
           target="_blank" 
@@ -525,17 +520,12 @@ const LandingSST = () => {
       <footer className="bg-[#050a11] py-20 px-6 border-t border-white/5">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center gap-12 mb-16">
-            <a 
-              href="https://cisgein.com" 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="text-center md:text-left hover:opacity-80 transition-opacity"
-            >
+            <div className="text-center md:text-left">
               <div className="text-4xl font-black text-[#FFD000] tracking-tighter mb-2">CISGEIN</div>
               <div className="text-[#FF5C00] font-black text-sm uppercase tracking-[0.4em]">
                 Cursos para profesionales
               </div>
-            </a>
+            </div>
             
             <div className="flex flex-wrap justify-center gap-10">
               <a href="https://www.facebook.com/Cisgein" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center gap-3 text-white/40 hover:text-[#FFD000] transition-all group" aria-label="Facebook de Cisgein">
